@@ -1,0 +1,294 @@
+keyword,stdAccName,stdAccType
+accommodation bond held,rental & accommodation bonds,non-current liability
+accommodation deposit,deposit liability (current),current liability
+accommodation bonds,accounts payable,current liability
+accommodation bonds held,rental & accommodation bonds,non-current liability
+accounts receivable assets,accounts receivable,current asset
+accrual,accruals,current liability
+accrued charge,accruals,current liability
+accrued income,accrued income,current asset
+accrued,accrued income,current asset
+accrued expenses,accrued expenses,current liability
+accrued wages,accrued wages,current liability
+accumulated depreciation car,accumulated depreciation,non-current asset
+accumulated depreciation equipment,accumulated depreciation,non-current asset
+accumulated depreciation motor vehicle,accumulated depreciation,non-current asset
+accumulated depreciation plant,accumulated depreciation,non-current asset
+accumulated depreciation plant equipment,accumulated depreciation,non-current asset
+accumulated depreciation vehicle,accumulated depreciation,non-current asset
+accumulated fund beginning year,retained earnings at beginning of year,equity
+accumulated funds,retained earnings at end of year,equity
+accumulated loss,retained earnings at end of year,equity
+accumulated loss beginning year,retained earnings at beginning of year,equity
+accumulated loss end year,retained earnings at end of year,equity
+accumulated surplus,retained earnings at end of year,equity
+accumulated amortisation,accumulated depreciation,non-current asset
+accumulated depreciation,accumulated depreciation,non-current asset
+accumulated surplus deficit,current year profits,equity
+accumulated surplus deficit,retained earnings at end of year,equity
+accumulation account,current year profits,equity
+adjustment transition,adjustment on transition,equity
+administration,buildings,non-current asset
+advance,loans payable,current liability
+advances,loans payable,current liability
+american express,credit cards,current liability
+amex,credit cards,current liability
+amortisation,less Amortisation,current asset
+annual leave,provision for leave,current liability
+anz,cash & cash equivalents,current asset
+asset revaluation reserve,reserves,equity
+balance beginning financial year,retained earnings at beginning of year,equity
+balance end  financial year,retained earnings at end of year,equity
+balance start financial year,retained earnings at beginning of year,equity
+bank account,cash & cash equivalents,current asset
+bank account,loans payable,current liability
+bank loans,loans payable,current liability
+bendigo bank social investmen,cash & cash equivalents,current asset
+bendigo main,cash & cash equivalents,current asset
+bendigo transaction acc,cash & cash equivalents,current asset
+beneficiar entitlement,beneficiaries entitlements,equity
+beneficiaries entitlement,beneficiaries entitlements,equity
+billdozer,vehicles,non-current asset
+bobcat,vehicles,non-current asset
+borrowings,loans payable,current liability
+building,buildings,non-current asset
+building at cost,buildings,non-current asset
+building historical cost,buildings,non-current asset
+bus,vehicles,non-current asset
+car,vehicles,non-current asset
+card,credit cards,current liability
+cash,cash & cash equivalents,current asset
+cash bank,cash & cash equivalents,current asset
+cash equivalents,cash & cash equivalents,current asset
+cash on hand,cash & cash equivalents,current asset
+cash management account,overdrawn deposit accounts,current liability
+cba,cash & cash equivalents,current asset
+cheque account,cash & cash equivalents,current asset
+class shares,issued capital,equity
+comm fuel,cash & cash equivalents,current asset
+comm main,cash & cash equivalents,current asset
+comm term dep,cash & cash equivalents,current asset
+computer equipment,"computer systems, software & equipment",non-current asset
+computer system,"computer systems, software & equipment",non-current asset
+computer system equipment,"computer systems, software & equipment",non-current asset
+computer related items,"computer systems, software & equipment",non-current asset
+contract liabilit,contract liability (current),current liability
+cottages,buildings,non-current asset
+credit card,credit cards,current liability
+current year earning,current year profits,equity
+current year profit,current year profits,equity
+current liabilities provision annual leave,provision for leave,current liability
+debtors,accounts receivable,current asset
+deferred income,deferred income,current liability
+deferred revenue,deferred revenue,current liability
+deficit surplus year,current year profits,equity
+depn,accumulated depreciation,non-current asset
+deposit,deposit liability (current),current liability
+deposits,cash & cash equivalents,current asset
+depreciation,accumulated depreciation,non-current asset
+depreciation building,accumulated depreciation,non-current asset
+depreciation fitting,accumulated depreciation,non-current asset
+depreciation furniture,accumulated depreciation,non-current asset
+depreciation furniture fitting,accumulated depreciation,non-current asset
+depreciation office equipment,accumulated depreciation,non-current asset
+depreciation office furniture,accumulated depreciation,non-current asset
+depreciation property improvements,accumulated depreciation,non-current asset
+designated funds quinlivan ga research/scholarship,members funds,equity
+designated funds quinlivan ga research/scholarship fund,members funds,equity
+diners,credit cards,current liability
+div 7a loan,loans receivable (related),current asset
+doubtful debt,doubtful debts,current asset
+dozer,vehicles,non-current asset
+employee entitlement,employee expenses payable (current),current liability
+employee benefit,employee expenses payable (current),current liability
+employee entitlements,employee expenses payable (current),current liability
+equipment,plant & equipment,non-current asset
+equities,shares,non-current asset
+equity,shares,non-current asset
+expense claim,employee expenses payable (current),current liability
+financial asset,investments (current),current asset
+financial liabilities,loans payable,current liability
+finished good,stock on hand,current asset
+finished goods,stock on hand,current asset
+fitting,furniture & fittings,non-current asset
+ford,vehicles,non-current asset
+formation expense,formation & startup,non-current asset
+fund account,cash & cash equivalents,current asset
+furniture,furniture & fittings,non-current asset
+furniture fitting,furniture & fittings,non-current asset
+future finance charge non current,future finance charges (non-current),non-current liability
+future finance charge non-current,future finance charges (non-current),non-current liability
+future finance charges current,future finance charges,current liability
+general funds,members funds,equity
+goods services tax,gst payable,current liability
+goods services tax,gst receivable,current asset
+goodwill,goodwill,non-current asset
+gst,gst payable,current liability
+gst,gst receivable,current asset
+hire purchase liability,hire purchase,current liability
+hire purchase liability current,hire purchase,current liability
+hire purchase liability non-current,hire purchase (non-current),non-current liability
+holden,vehicles,non-current asset
+impairment provision,impairment - current,current asset
+impairment,impairment - current,current asset
+income advance,income in advance,current liability
+intangible,intangibles,non-current asset
+intangible asset,intangibles,non-current asset
+interest bearing liabilit,loans payable,current liability
+inventor,stock on hand,current asset
+investment trust,investment trust,non-current asset
+investment,investments (current),current asset
+investments accounted equity method,investments (non-current),non-current asset
+issued capital,issued capital,equity
+jag,vehicles,non-current asset
+jaguar,vehicles,non-current asset
+kitchen building,buildings,non-current asset
+land,land,non-current asset
+land at cost,land,non-current asset
+land building,buildings,non-current asset
+land historical cost,land,non-current asset
+laundry building,buildings,non-current asset
+lease liabilit,lease liability (current),current liability
+lease bond,security deposit,non-current asset
+leasehold improvements cost,property improvements,non-current asset
+leashold assets,buildings,non-current asset
+library resources,"computer systems, software & equipment",non-current asset
+library resources,plant & equipment,non-current asset
+loan,loans receivable,current asset
+loan advance,loans payable,current liability
+loan current,loans payable,current liability
+loan non-current,loans payable (non-current),non-current liability
+loan non-current,loans receivable (non-current),non-current asset
+long service,provision for leave,current liability
+long service leave,provision for leave,current liability
+lsl,provision for leave,current liability
+maintenance building,buildings,non-current asset
+maserati,vehicles,non-current asset
+mastercard,credit cards,current liability
+mazda,vehicles,non-current asset
+medical building,buildings,non-current asset
+member fund,members funds,equity
+motor vehicle loan,loans payable,current liability
+nab,cash & cash equivalents,current asset
+net income,current year profits,equity
+net loss,current year profits,equity
+non-controlling interests,non-controlling interests,equity
+non-current bonds paid,loans payable (non-current),non-current liability
+office equipment,furniture & fittings,non-current asset
+office fittings furniture,furniture & fittings,non-current asset
+operating deficit,current year profits,equity
+operating surplus,current year profits,equity
+ordinary share,issued capital,equity
+other financial asset,investments (current),current asset
+other liabilities,accounts payable,current liability
+other loan,loans receivable,current asset
+other loan  non-current,loans receivable (non-current),non-current asset
+other loan current,loans receivable,current asset
+other payable,accounts payable,current liability
+other payables,accounts payable,current liability
+other receivable,accounts receivable,current asset
+other taxes,taxes,current liability
+partner entitlements,partners entitlements,equity
+payable,accounts payable,current liability
+payg withholding,payg withholding,current liability
+payg,payg withholding,current liability
+payg payable,payg withholding,current liability
+paypal,cash & cash equivalents,current asset
+payroll liabilit,provision for salaries & wages,current liability
+payroll liabilities,provision for salaries & wages,current liability
+permanent fund,members funds,equity
+petty cash,cash & cash equivalents,current asset
+petty cash,cash & cash equivalents,current asset
+pinaroo general building,buildings,non-current asset
+plan management clearing account,loans payable,current liability
+plant,plant & equipment,non-current asset
+prepaid expenses,prepaid expenses,current asset
+prepaid membership,prepaid current liability,current liability
+prepaid rent,prepaid current liability,current liability
+prior year adjustment,prior year adjustment,equity
+properties,buildings,non-current asset
+property,buildings,non-current asset
+property,property,non-current asset
+property improvement,property improvements,non-current asset
+provision unearned income,provision for unearned revenue,current asset
+provision unearned revenue,provision for unearned revenue,current asset
+provision,provisions,current liability
+provision current,provisions,current liability
+provision current liabilities,provisions,current liability
+provision current liability,provisions,current liability
+provision dividend,provision for dividends,current liability
+provision expected credit losses,provision for unearned revenue,current asset
+provision income tax,provision for income tax,current liability
+provision long service leave-non current,provision for leave (non-current),non-current liability
+provision non current liabilities,provisions (non-current),non-current liability
+provision non current liability,provisions (non-current),non-current liability
+provision non-current,provisions (non-current),non-current liability
+provision non-current liabilities,provisions (non-current),non-current liability
+provision non-current liability,provisions (non-current),non-current liability
+provisions non current,provisions (non-current),non-current liability
+raw materials,stock on hand,current asset
+receivable,accounts receivable,current asset
+receivable,accounts receivable (non-current),non-current asset
+related party loan,loans receivable (related),current asset
+rent bond,rental & accommodation bonds,non-current liability
+reserve,reserves,equity
+reserve,reserves,equity
+reserves,reserves,equity
+retained earning,retained earnings at end of year,equity
+retained earning beginning year,retained earnings at beginning of year,equity
+retained earnings end year,retained earnings at end of year,equity
+retained profit,retained earnings at end of year,equity
+retained fund,retained earnings at end of year,equity
+retained funds,retained earnings at end of year,equity
+retained surplus,retained earnings at beginning of year,equity
+retained surpluses,current year profits,equity
+revaluation surplus,revaluation surplus,equity
+security deposit,security deposit,non-current asset
+settled sum,other equity,equity
+settlement capital,other equity,equity
+settlement sum,members funds,equity
+settlement sum,other equity,equity
+shares,shares,non-current asset
+short term deposit,cash & cash equivalents,current asset
+short-term deposit,cash & cash equivalents,current asset
+sick leave,provision for leave,current liability
+software,"computer systems, software & equipment",non-current asset
+special purpose funds,special purpose funds,equity
+start up cost,formation & startup,non-current asset
+start up expense,formation & startup,non-current asset
+stock on hand,stock on hand,current asset
+stock transit,stock in transit,current asset
+suncorp business invest acc,cash & cash equivalents,current asset
+suncorp investor acc,cash & cash equivalents,current asset
+sundry creditor,accounts payable,current liability
+superannuation,superannuation payable,current liability
+superannuation payable,superannuation payable,current liability
+surplus loss year,current year profits,equity
+suspense,suspense,non-current liability
+suspense account,suspense,non-current liability
+tax liabilities,taxes,current liability
+tax,taxes,current liability
+term deposit,deposits (current),current asset
+total building stage valuation,buildings,non-current asset
+total receiveables current,accounts receivable,current asset
+toyota,vehicles,non-current asset
+tractor,vehicles,non-current asset
+trade creditor,accounts payable,current liability
+trade other payable,accounts payable,current liability
+trade other receivable,accounts receivable,current asset
+trade payable,accounts payable,current liability
+Paaalant and equipment,NA,non-current asset
+Cash and cash equivalents,NA,current asset
+Assets classified as held for sale,NA,non-current asset
+Retained earnings,NA,equity
+Deferred Income,NA,current liability
+Trade and other receivables,NA,current asset
+Trust fund liability B,NA,equity
+Trade and other payables un,NA,current liability
+Provisions,NA,non-current asset
+Non-current lal,NA,non-current liability
+Prepayments,NA,non-current asset
+Provisions n,NA,non-current asset
+Other financial assets,NA,current asset
+Total current liabi,NA,non-current asset
+15,,

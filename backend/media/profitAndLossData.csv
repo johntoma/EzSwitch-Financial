@@ -1,0 +1,693 @@
+keyword,stdAccName,stdAccType
+accommodation,accommodation expenses,expense
+accountancy fee,accounting & audit,expense
+accounting fee,accounting & audit,expense
+audit fee,accounting & audit,expense
+accounting,accounting & audit,expense
+audit,accounting & audit,expense
+accounting paid,accounting & audit,expense
+financial management,accounting & audit,expense
+bookkeep,accounting & audit,expense
+accountant,accounting & audit,expense
+accountancy,accounting & audit,expense
+accountancy fee,accounting & audit fees received,income
+accounting fee,accounting & audit fees received,income
+audit fee,accounting & audit fees received,income
+accounting,accounting & audit fees received,income
+audit,accounting & audit fees received,income
+accounting received,accounting & audit fees received,income
+financial management,accounting & audit fees received,income
+bookkeep,accounting & audit fees received,income
+accountant,accounting & audit fees received,income
+secretarial services,administration costs,expense
+agency staffing costs,administration costs,expense
+administrative expenses,administration costs,expense
+administration expenses,administration costs,expense
+administration,administration costs,expense
+administrative,administration costs,expense
+administration costs,administration costs,expense
+administration expense,administration costs,expense
+advertising,advertising & promotion,expense
+advertisement,advertising & promotion,expense
+advertisements,advertising & promotion,expense
+promotion,advertising & promotion,expense
+promotional,advertising & promotion,expense
+sponsorship,advertising & promotion,expense
+sponsorships,advertising & promotion,expense
+marketing,advertising & promotion,expense
+sponsor,advertising & promotion,expense
+sponsors,advertising & promotion,expense
+publicity,advertising & promotion,expense
+advert,advertising & promotion,expense
+advocacy,advertising & promotion,expense
+information service,advertising & promotion,expense
+support service,advertising & promotion,expense
+bel canto award expenses,advertising & promotion,expense
+djs irthday concert 2015/2016/2017,advertising & promotion,expense
+elizabeth connell prize expenses,advertising & promotion,expense
+lieder concert expenses,advertising & promotion,expense
+masterclasses,advertising & promotion,expense
+sydney song prize,advertising & promotion,expense
+kingdom builders events,advertising & promotion,expense
+exhibitions,advertising & promotion,expense
+agent,agents fees & commissions,expense
+broker fee,agents fees & commissions,expense
+services contract expenses,agents fees & commissions,expense
+agency fees,agents fees & commissions,expense
+amortisation,amortisation and depreciation,expense
+depreciation,amortisation and depreciation,expense
+amort,amortisation and depreciation,expense
+depn,amortisation and depreciation,expense
+amortis,amortisation and depreciation,expense
+bad,bad debts written off,expense
+doubtful,bad debts written off,expense
+write-off,bad debts written off,expense
+write off,bad debts written off,expense
+bad debt,bad debts written off,expense
+bad debts,bad debts written off,expense
+bank charge,bank charges,expense
+bank charges,bank charges,expense
+bank fee,bank charges,expense
+bank fees,bank charges,expense
+merchant charge,bank charges,expense
+merchant charges,bank charges,expense
+merchant fees,bank charges,expense
+bank cost,bank charges,expense
+bank costs,bank charges,expense
+board expense,board expenses,expense
+strata fee,body corporate & strata expenses,expense
+body corporate fee,body corporate & strata expenses,expense
+strata lev,body corporate & strata expenses,expense
+body corporate lev,body corporate & strata expenses,expense
+strata charge,body corporate & strata expenses,expense
+body corporate charge,body corporate & strata expenses,expense
+occupancy,body corporate & strata expenses,expense
+borrowing cost,borrowing costs,expense
+finance cost,borrowing costs,expense
+finance expenses,borrowing costs,expense
+gain,capital gain on sale of current assets,income
+capital gain,capital gain on sale of current assets,income
+capital loss,capital gain on sale of current assets,income
+realised gain,capital gain on sale of current assets,income
+loss,capital gain on sale of current assets,income
+losses,capital gain on sale of current assets,income
+profit on sale,capital gain on sale of current assets,income
+loss on sale,capital gain on sale of current assets,income
+gain,capital gain on sale of non-current assets,income
+capital gain,capital gain on sale of non-current assets,income
+capital loss,capital gain on sale of non-current assets,income
+realised gain,capital gain on sale of non-current assets,income
+loss,capital gain on sale of non-current assets,income
+losses,capital gain on sale of non-current assets,income
+profit on sale,capital gain on sale of non-current assets,income
+loss on sale,capital gain on sale of non-current assets,income
+gain,capital loss on sale of current assets,expense
+capital gain,capital loss on sale of current assets,expense
+capital loss,capital loss on sale of current assets,expense
+realised gain,capital loss on sale of current assets,expense
+loss,capital loss on sale of current assets,expense
+losses,capital loss on sale of current assets,expense
+profit on sale,capital loss on sale of current assets,expense
+loss on sale,capital loss on sale of current assets,expense
+gain,capital loss on sale of non-current assets,expense
+capital gain,capital loss on sale of non-current assets,expense
+capital loss,capital loss on sale of non-current assets,expense
+realised gain,capital loss on sale of non-current assets,expense
+loss,capital loss on sale of non-current assets,expense
+losses,capital loss on sale of non-current assets,expense
+profit on sale,capital loss on sale of non-current assets,expense
+loss on sale,capital loss on sale of non-current assets,expense
+inventories finished goods,change in inventory,expense
+cleaning,cleaning & waste disposal,expense
+cleaner,cleaning & waste disposal,expense
+cleaners,cleaning & waste disposal,expense
+rubbish,cleaning & waste disposal,expense
+waste,cleaning & waste disposal,expense
+secure document disposal,cleaning & waste disposal,expense
+rubbish removal,cleaning & waste disposal,expense
+closing finished good,closing finished goods,expense
+closing raw materials,closing raw materials,expense
+closing stock,closing stock,expense
+closing work in progress,closing work in progress,expense
+commission,commission paid,expense
+contract income,commissions received,income
+fee income,commissions received,income
+childcare benefit,commissions received,income
+fee collected,commissions received,income
+fee income other,commissions received,income
+exit fee,commissions received,income
+management fee,commissions received,income
+commission received,commissions received,income
+bookshop commission,commissions received,income
+community service,community services,expense
+group community activities,community services,expense
+accreditation expense,compliance expenses,expense
+compliance expense,compliance expenses,expense
+compliance costs,compliance expenses,expense
+software,computers,expense
+website,computers,expense
+computer,computers,expense
+computer supplies,computers,expense
+computer equipment,computers,expense
+computer software,computers,expense
+web expenses,computers,expense
+consultant,consultancy fees,expense
+consultancy,consultancy fees,expense
+consulting,consultancy fees,expense
+consultancy fee,consultancy fees,expense
+consultancy fee paid,consultancy fees,expense
+consultancy fee income,consultancy fees,expense
+land survey,consultancy fees,expense
+sub-contracting,consultancy fees,expense
+consultant,consultancy fees received,income
+consultancy,consultancy fees received,income
+consulting,consultancy fees received,income
+consultancy fee,consultancy fees received,income
+consultancy fee received,consultancy fees received,income
+consultancy fee income,consultancy fees received,income
+animal requisites,consumables,expense
+photographs,consumables,expense
+equipment supplies,consumables,expense
+centre equipment,consumables,expense
+consumables,consumables,expense
+office cost,consumables,expense
+supplies,consumables,expense
+materials supplies,consumables,expense
+materials stores,consumables,expense
+purc/replacemt minor equip,consumables,expense
+chemicals,consumables,expense
+craft expenses,consumables,expense
+materials supplles,consumables,expense
+cost sales,cost of sales,expense
+development,development & planning,expense
+planning,development & planning,expense
+plans,development & planning,expense
+plan,development & planning,expense
+aids manufacturing,direct cost,expense
+discount allowed,discounts allowed,expense
+discount received,discounts received,income
+discount,discounts received,income
+distributions,distributions received,income
+div,distributions received,income
+dividend,dividends received,income
+donation,donations paid,expense
+offering,donations paid,expense
+offerings,donations paid,expense
+tithe,donations paid,expense
+tithe,donations paid,expense
+tithing,donations paid,expense
+parents contribution,donations paid,expense
+corporate sponsor,donations paid,expense
+legac,donations paid,expense
+gift,donations paid,expense
+sponsorship income,donations paid,expense
+missions,donations paid,expense
+donation paid,donations paid,expense
+bequest,donations paid,expense
+donation to,donations paid,expense
+gratuities,donations paid,expense
+welfare charitable expenses,donations paid,expense
+donation,donations received,income
+offering,donations received,income
+offerings,donations received,income
+tithe,donations received,income
+tithe,donations received,income
+tithing,donations received,income
+parents contribution,donations received,income
+corporate sponsor,donations received,income
+legac,donations received,income
+gift,donations received,income
+sponsorship income,donations received,income
+missions,donations received,income
+donation received,donations received,income
+bequest,donations received,income
+donation from,donations received,income
+sponsorship,donations received,income
+gas,electricity & gas,expense
+electricity,electricity & gas,expense
+light,electricity & gas,expense
+lights,electricity & gas,expense
+lighting,electricity & gas,expense
+power,electricity & gas,expense
+safety,employee amenities,expense
+first aid supplies,employee amenities,expense
+hygiene,employee amenities,expense
+health,employee amenities,expense
+catering amenities,employee amenities,expense
+entertainment,entertainment,expense
+kids activities,entertainment,expense
+kids entertainment,entertainment,expense
+provision unspent funding,expense provision,expense
+expense provision,expense provision,expense
+filing fee,filing fees,expense
+court expense,filing fees,expense
+food,food & drink,expense
+drink,food & drink,expense
+kitchen,food & drink,expense
+grocer,food & drink,expense
+meal,food & drink,expense
+catering expenses,food & drink,expense
+catering,food & drink,expense
+dinner expenses,food & drink,expense
+foreign currency translation profit/loss,foreign currency translation profit/(loss),income
+delivery,freight & cartage,expense
+freight,freight & cartage,expense
+fbt,fringe benefits tax,expense
+fringe benefit,fringe benefits tax,expense
+fringe benefits,fringe benefits tax,expense
+fuel,fuel expenses,expense
+oil,fuel expenses,expense
+petrol,fuel expenses,expense
+diesel,fuel expenses,expense
+fundraising,fundraising,income
+fund rais,fundraising,income
+fundraiser,fundraising,income
+fees customers health funds,fundraising,income
+fundrais expens,fundraising expenses,expense
+race hope expens,fundraising expenses,expense
+fundrais cost,fundraising expenses,expense
+fundraising,fundraising expenses,expense
+fund rais,fundraising expenses,expense
+fundraiser,fundraising expenses,expense
+furniture,furniture & fittings expense,expense
+fittings,furniture & fittings expense,expense
+school,general expenses,expense
+resources for mentoring,general expenses,expense
+other expense,general expenses,expense
+other fee,general expenses,expense
+other charge,general expenses,expense
+general expense,general expenses,expense
+general fee,general expenses,expense
+general charge,general expenses,expense
+miscellaneous expense,general expenses,expense
+hats,general expenses,expense
+baby child goods,general expenses,expense
+music program,general expenses,expense
+incursion,general expenses,expense
+meeting expenses,general expenses,expense
+sundry expense,general expenses,expense
+general,general expenses,expense
+purchase,general expenses,expense
+asset under,general expenses,expense
+commemoration,general expenses,expense
+cost of,general expenses,expense
+speaker,general expenses,expense
+committee,general expenses,expense
+meeting,general expenses,expense
+fire brigade fee,general expenses,expense
+support service,general expenses,expense
+fine penalti,general expenses,expense
+business related costs,general expenses,expense
+de-amalgamation ladies auxiliary,general expenses,expense
+operating expenses,general expenses,expense
+fee,general expenses,expense
+charge,general expenses,expense
+residents chargeable expenses,general expenses,expense
+monitoring fire line,general expenses,expense
+crockery cutiery glassware,general expenses,expense
+contract payments,general expenses,expense
+market expenses,general expenses,expense
+crockery cutlery glassware,general expenses,expense
+expenditure,general expenses,expense
+french class expenses,general expenses,expense
+expenses,general expenses,expense
+acirt,general expenses,expense
+foundation house,general expenses,expense
+shop expense,general expenses,expense
+collection expense,general expenses,expense
+deaccessioned artwork,general expenses,expense
+resources,general expenses,expense
+results operating activities,general expenses,expense
+reimbursements,general expenses,expense
+information technology,general expenses,expense
+profit operations,general expenses,expense
+grant spent,grants,expense
+grant returned,grants,expense
+grants allocated,grants,expense
+unspent grant refund,grants,expense
+funding,grants & subsidies received,income
+grant,grants & subsidies received,income
+ndia,grants & subsidies received,income
+subsidies,grants & subsidies received,income
+subsidy,grants & subsidies received,income
+australian government,grants & subsidies received,income
+child care benefit,grants & subsidies received,income
+bass mobility allowance,grants & subsidies received,income
+bass household food item,grants & subsidies received,income
+bass prov good,grants & subsidies received,income
+bass utilities,grants & subsidies received,income
+bass utilties,grants & subsidies received,income
+dept aging disability home care,grants & subsidies received,income
+dept health ageing #3134,grants & subsidies received,income
+dept health ageing #3138,grants & subsidies received,income
+lease,hire & leasing,expense
+hire,hire of plant & equipment,expense
+hire purchase charge,hire purchase charges,expense
+hire purchase fees,hire purchase charges,expense
+holiday pay provision,holiday pay provision,expense
+income,income,income
+surplus continuing activities year attributable organisation,income,income
+income tax,income tax,expense
+Infrastructure costs,infrastructure costs,expense
+insurance,insurance,expense
+building contents,insurance,expense
+hospitality,insurance,expense
+insurance recoverles,insurance recoveries,income
+interest,interest,expense
+interest expense,interest,expense
+interest paid,interest,expense
+mortgage expense,interest,expense
+external,interest,expense
+interest,interest received,income
+interest income,interest received,income
+interest received,interest received,income
+rental income,lease rentals,income
+rent,lease rentals,income
+letting fee,lease rentals,income
+tenant outlay recovery,lease rentals,income
+home,lease rentals,income
+rent received,lease rentals,income
+residential care lease income,lease rentals,income
+leave,leave,expense
+rdo,leave,expense
+rdos,leave,expense
+parental leave,leave,expense
+annual leave,leave,expense
+sick leave,leave,expense
+carers leave,leave,expense
+legal,legal costs,expense
+solicitor,legal costs,expense
+solicitors,legal costs,expense
+lawyer,legal costs,expense
+long service,long service leave,expense
+lsl,long service leave,expense
+loss discontinued operation,loss from discontinued operation,income
+books,"magazines, journals, periodicals & newspapers",expense
+publications,"magazines, journals, periodicals & newspapers",expense
+magazines,"magazines, journals, periodicals & newspapers",expense
+journals,"magazines, journals, periodicals & newspapers",expense
+periodicals,"magazines, journals, periodicals & newspapers",expense
+library reference materials,"magazines, journals, periodicals & newspapers",expense
+management fee,management fees paid,expense
+management fee paid,management fees paid,expense
+management fee cost,management fees paid,expense
+professional supervision,management fees paid,expense
+management fee,management fees received,income
+management fee received,management fees received,income
+management fee income,management fees received,income
+vehicle,motor vehicles,expense
+vehicles,motor vehicles,expense
+mv,motor vehicles,expense
+maserati,motor vehicles,expense
+vehicle,motor vehicles,expense
+tractor,motor vehicles,expense
+dozer,motor vehicles,expense
+billdozer,motor vehicles,expense
+truck,motor vehicles,expense
+bobcat,motor vehicles,expense
+jag,motor vehicles,expense
+jaguar,motor vehicles,expense
+ford,motor vehicles,expense
+mazda,motor vehicles,expense
+toyota,motor vehicles,expense
+car,motor vehicles,expense
+bus,motor vehicles,expense
+trailer,motor vehicles,expense
+km allowance,motor vehicles,expense
+net fair movements available-for-sale financial assets,net fair value movement,expense
+office equipment expensed,office equipment,expense
+office equipment,office equipment,expense
+equipment,office equipment,expense
+furniture,office equipment,expense
+home office expenses,office equipment,expense
+office expenses,office equipment,expense
+opening finished good,opening finished goods,expense
+opening raw material,opening raw materials,expense
+opening stock,opening stock,expense
+opening work in progress,opening work in progress,expense
+other comprehensive income,other comprehensive income,income
+changes fair value financial instruments,other comprehensive income,income
+comprehensive income,other comprehensive income,income
+employment expenses other,other employment expenses,expense
+other employer expenses,other employment expenses,expense
+other employee expenses,other employment expenses,expense
+hr expense,other employment expenses,expense
+recruitment expenses,other employment expenses,expense
+employment benefits expense,other employment expenses,expense
+occupational therapy,other employment expenses,expense
+aid expenses,other employment expenses,expense
+capital,other financial expenses,expense
+financing,other financial expenses,expense
+finance expense,other financial expenses,expense
+betty fulton fund,other financial expenses,expense
+hospitality,other financial expenses,expense
+establishment costs,other financial expenses,expense
+finance income,other financial income,income
+finance revenue,other financial income,income
+financial income,other financial income,income
+financial revenue,other financial income,income
+brokerage funds,other financial income,income
+charges fees,other financial income,income
+retained profits end financial year,other financial income,income
+contributions,other financial income,income
+tuition,other financial income,income
+revenues,other financial income,income
+other income,other income,income
+general income,other income,income
+miscellaneous income,other income,income
+sundry income,other income,income
+general,other income,income
+other items,other income,income
+other revenue,other income,income
+general revenue,other income,income
+miscellaneous revenue,other income,income
+sundry revenue,other income,income
+project overhead,other income,income
+meals,other income,income
+transfer rcc investments,other income,income
+re-imbursements recoverÃ­es,other income,income
+glaucoma adherence project,other income,income
+accommodation bond retentions,other income,income
+accommodation charges,other income,income
+independent living unit retentions,other income,income
+aamt project contracts,other income,income
+add-on educational project contracts,other income,income
+aamt conference,other income,income
+aamt project contacts,other income,income
+add-on education project contracts,other income,income
+surplus continuing activities year attributable organisation,other income,income
+venue hire,other income,income
+advertising,other income,income
+childcare benefits,other income,income
+glaucoma project,other income,income
+paid parental leave,other income,income
+fee overdue invoices,overdue invoice fees,income
+over due invoices,overdue invoice fees,income
+parking,parking expenses,expense
+payroll tax,payroll tax,expense
+payroll tax,payroll tax,expense
+permit,"permits, licences & fees paid",expense
+permits,"permits, licences & fees paid",expense
+licence,"permits, licences & fees paid",expense
+license,"permits, licences & fees paid",expense
+membership fees,"permits, licences & fees paid",expense
+permit,"permits, licenses & fees",income
+permits,"permits, licenses & fees",income
+licence,"permits, licenses & fees",income
+license,"permits, licenses & fees",income
+membership fees,"permits, licenses & fees",income
+pest control,pest control,expense
+petty cash expen,petty cash expenditure,expense
+domain,phone & internet,expense
+hosting,phone & internet,expense
+internet,phone & internet,expense
+telephone,phone & internet,expense
+mobile,phone & internet,expense
+phone,phone & internet,expense
+fax,phone & internet,expense
+communication expenses,phone & internet,expense
+post office,postage,expense
+postage,postage,expense
+photocopy,printing & stationery,expense
+photocopies,printing & stationery,expense
+printer,printing & stationery,expense
+stationery,printing & stationery,expense
+printing,printing & stationery,expense
+production expenses,production costs,expense
+production cost,production costs,expense
+production expense,production costs,expense
+management fee,professional fees paid,expense
+architect fee,professional fees paid,expense
+design fee,professional fees paid,expense
+speaker fee,professional fees paid,expense
+graphic design expenses,professional fees paid,expense
+mentoring income,professional fees paid,expense
+professional service,professional fees paid,expense
+professional service income,professional fees paid,expense
+professional fee,professional fees paid,expense
+professional fee received,professional fees paid,expense
+professional fee income,professional fees paid,expense
+visiting professionals,professional fees paid,expense
+management fee,professional fees received,income
+architect fee,professional fees received,income
+design fee,professional fees received,income
+speaker fee,professional fees received,income
+graphic design expenses,professional fees received,income
+mentoring income,professional fees received,income
+professional service,professional fees received,income
+professional service income,professional fees received,income
+professional fee,professional fees received,income
+professional fee received,professional fees received,income
+professional fee income,professional fees received,income
+care fee,professional fees received,income
+daily fee,professional fees received,income
+service fee,professional fees received,income
+program,project & program expenses,expense
+project,project & program expenses,expense
+workshop,project & program expenses,expense
+activities expense,project & program expenses,expense
+activity expense,project & program expenses,expense
+lodge support,project & program expenses,expense
+lodge expense,project & program expenses,expense
+program opening balances,project & program income,income
+project income,project & program income,income
+program income,project & program income,income
+purchase,purchases,expense
+council rate,rates & taxes,expense
+council lev,rates & taxes,expense
+council charge,rates & taxes,expense
+stamp duty,rates & taxes,expense
+levy,rates & taxes,expense
+levies,rates & taxes,expense
+duty,rates & taxes,expense
+duties,rates & taxes,expense
+tax,rates & taxes,expense
+taxes,rates & taxes,expense
+rate,rates & taxes,expense
+currency gain,realised currency gains,income
+realised currency gain,realised currency gains,income
+adjustment conversion,realised currency gains,income
+reimburse,rebates,income
+rebate,rebates,income
+recoveries,recoveries,income
+property management fee,rent paid,expense
+property management charge,rent paid,expense
+rent expense,rent paid,expense
+rent,rent paid,expense
+rent paid,rent paid,expense
+pest,repairs & maintenance,expense
+maint,repairs & maintenance,expense
+maintenance,repairs & maintenance,expense
+repair,repairs & maintenance,expense
+repairs,repairs & maintenance,expense
+refurb,repairs & maintenance,expense
+refurbishment,repairs & maintenance,expense
+refurbishments,repairs & maintenance,expense
+gardening,repairs & maintenance,expense
+grounds keeping,repairs & maintenance,expense
+upkeep,repairs & maintenance,expense
+mowing,repairs & maintenance,expense
+building,repairs & maintenance,expense
+property related costs,repairs & maintenance,expense
+research,research,expense
+retained surplus beginning financial year,retained surplus at beginning of  financial year,income
+retained profits beginning financial year,retained surplus at beginning of  financial year,income
+opening retained profits,retained surplus at beginning of  financial year,income
+revenue,revenue,income
+trading profit,revenue,income
+income,revenue,income
+net surplus/ deficit discontinuing operations,revenue,income
+revenues ordinary activities,revenue,income
+royalt,royalties,income
+employee,salaries & wages,expense
+employees,salaries & wages,expense
+payroll,salaries & wages,expense
+prt,salaries & wages,expense
+overtime,salaries & wages,expense
+allowance,salaries & wages,expense
+casual,salaries & wages,expense
+staff,salaries & wages,expense
+wages,salaries & wages,expense
+salary,salaries & wages,expense
+salaries,salaries & wages,expense
+labour,salaries & wages,expense
+chaplaincy expenses,salaries & wages,expense
+ministry expenses,salaries & wages,expense
+sale,sales,income
+sold,sales,income
+merchandise,sales,income
+security,security,expense
+independent living fees charges,service fees,income
+residential care fees charges,service fees,income
+assisted living fees charges,service fees,income
+auspice fees,service fees,income
+client fees contributions,service fees,income
+gross receipts residents,service fees,income
+client contribution,service fees,income
+residential care,service fees,income
+fees received,service fees,income
+auspice fees,service fees paid,expense
+residents chargable expenses,service fees paid,expense
+enteral feeding,service fees paid,expense
+client expenses,service fees paid,expense
+residential care,service fees paid,expense
+professional development,staff training & welfare,expense
+staff training,staff training & welfare,expense
+work experience,staff training & welfare,expense
+conference,staff training & welfare,expense
+oh&s,staff training & welfare,expense
+occupational health,staff training & welfare,expense
+training,staff training & welfare,expense
+choir,staff training & welfare,expense
+medical,staff training & welfare,expense
+project manager,staff training & welfare,expense
+education,staff training & welfare,expense
+subcontract,subcontractors,expense
+subscription fee,subscription fees received,income
+subscription fee received,subscription fees received,income
+subscription fee income,subscription fees received,income
+members subscriptions,subscription fees received,income
+subscription,subscription fees received,income
+subscriptions,subscription fees received,income
+registration,subscription fees received,income
+registrations,subscription fees received,income
+membership,subscription fees received,income
+subscription fee,subscriptions,expense
+subscription paid,subscriptions,expense
+subscription cost,subscriptions,expense
+subscription expense,subscriptions,expense
+members subscriptions,subscriptions,expense
+subscription,subscriptions,expense
+subscriptions,subscriptions,expense
+registration,subscriptions,expense
+registrations,subscriptions,expense
+membership,subscriptions,expense
+super,superannuation contributions,expense
+superannuation,superannuation contributions,expense
+payg,superannuation contributions,expense
+sgc,superannuation contributions,expense
+defined contribution plan,superannuation contributions,expense
+sustainability,sustainability expenses,expense
+tool replacement,tools,expense
+expenses trading activities,trading expenses,expense
+travel,travel expenses,expense
+entertainment,travel expenses,expense
+travel,travel expenses,expense
+uniform,uniforms,expense
+uniforms,uniforms,expense
+protective clothing,uniforms,expense
+footcare,uniforms,expense
+unrealised currency gain,unrealised currency gains,income
+revaluation,unrealised gain (loss),income
+increase fair value investment,unrealised gain (loss),income
+increase fair value property,unrealised gain (loss),income
+fair value gain asset held sale,unrealised gain (loss),income
+fair value,unrealised gain (loss),income
+value financial assets increase,unrealised gain (loss),income
+value financial assets write down,unrealised gain (loss),income
+utilities,utilities,expense
+foxtel,utilities,expense
+water,utilities,expense
+workcare,workers compensation insurance,expense
+workcover,workers compensation insurance,expense
+worker comp,workers compensation insurance,expense
