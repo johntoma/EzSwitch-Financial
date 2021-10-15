@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title color="light" class="ion-margin-vertical ion-text-left"><strong>EZ Switch Financial</strong></ion-title>
+    <ion-menu-button menu="main-menu" color="light" slot="start">
+    </ion-menu-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card color="secondary" class="ion-margin ion-padding">
+    <ion-title class="ion-margin"><strong>Preview Documents</strong></ion-title>
+    <ion-title class="ion-margin">Document List</ion-title>
+    <ion-list>
+      <ion-item color="medium">
+        <ion-grid>
+          <ion-row>
+            <ion-col size="2">
+              <h6 class="ion-margin">MachineLearningID</h6>
+            </ion-col>
+            <ion-col>
+              <h6 class="ion-margin">File Name</h6>
+            </ion-col>
+            <ion-col>
+              <h6 class="ion-margin">File Path</h6>
+            </ion-col>
+            <ion-col size="2">
+              <h6 class="ion-margin">TypeOfSheet</h6>
+            </ion-col>
+            <ion-col size="1">
+              <h6 class="ion-margin">Output</h6>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+      <ion-item color="light">
+        <ion-grid>
+          <ion-row *ngFor="let dataItem of MachineLearningList">
+            <ion-col size="2">
+              <p class="ion-margin">{{dataItem.MachineLearningId}}</p>
+            </ion-col>
+            <ion-col>
+              <p class="ion-margin">{{dataItem.SheetFileName}}</p>
+            </ion-col>
+            <ion-col>
+              <p class="ion-margin">{{service.PhotoUrl}}</p>
+            </ion-col>
+            <ion-col size="2">
+              <p class="ion-margin">{{dataItem.TypeOfSheet}}</p>
+            </ion-col>
+            <ion-col size="1">
+              <ion-button (click)="ChangePreviewDocument(dataItem)">Preview</ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+    </ion-list><br>
+
+    <ion-title class="ion-margin">Document Preview</ion-title><br>
+
+
+    <ion-item width="100px" color="dark" style="text-align: center;">
+
+    <ion-text  style="text-align: center;">
+      <h6><strong>Document Selected: </strong>{{PreviewFilePath}}</h6>
+    </ion-text>
+      <ion-label>Zoom: {{Zoom}}%</ion-label>
+      <ion-range [(ngModel)]="Zoom" (ionChange)="ChangePreviewZoom()" min="25" max="100" step="12.5" snaps="true" knob-size="104"></ion-range>
+    </ion-item>
+    <br>
+
+    <div style="text-align: center;">
+      <img src={{PreviewFilePath}} alt="file" id="PreviewFile"
+        style="background-color: #222428;  padding: 50px; width:'50%'; height:'50%';">
+    </div><br><br>
+
+
+    <!--<ngx-extended-pdf-viewer [src]="'assets/sample.pdf'" [useBrowserLocale]="true" height="100%"></ngx-extended-pdf-viewer>-->
+
+  </ion-card>
+</ion-content>

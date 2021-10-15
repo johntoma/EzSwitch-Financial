@@ -1,0 +1,119 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title color="light" class="ion-margin-vertical ion-text-left"><strong>EZ Switch Financial</strong></ion-title>
+    <ion-menu-button menu="main-menu" color="light" slot="start">
+    </ion-menu-button>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-grid>
+    <!-- Instructions Section -->
+    <ion-row>
+      <ion-col>
+        <ion-card color="secondary" class="ion-margin ion-padding">
+          <ion-title>Instructions</ion-title>
+          <p>
+            1. Add your PDF file you wish to use for scanning using the ‘Add
+            File’ button.
+          </p>
+          <p>
+            2. After adding the file you wish to scan, press the ‘Upload
+            Document’ button to begin scanning.
+          </p>
+          <p>
+            3. Once the document has been scanned,you may download it by clicking the
+            ‘Download’ button beside the PDF file.
+          </p>
+          <p>
+            4. You may machine learn thescanned documents byaccessing the
+            ‘Machine ‘Learning’ page located on the left side of the page.
+          </p>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <!-- Upload Document Section-->
+    <ion-row>
+      <ion-col>
+        <ion-card color="secondary" class="ion-margin ion-padding">
+          <ion-title class="ion-margin"><strong>Upload Documents</strong></ion-title>
+
+          <!-- Report Type Select-->
+          <ion-item color="primary" style="width:300px;margin:10px">
+            <ion-label>Type of Sheet:</ion-label>
+            <select class="form-control" [(ngModel)]="TypeOfSheet">
+              <option>Balance Sheet</option>
+              <option>Profit and Loss</option>
+          </select>
+          </ion-item>
+          <ion-item color="primary" style="width:500px;margin:10px">
+            <ion-label>Upload Sheet File:</ion-label>
+            <input type="file"  (change)="uploadPhoto($event)" class="mt-2" />
+          </ion-item>
+          <ion-item color="primary" style="width:550px;margin:10px">
+            <ion-label>Upload Training Data File:</ion-label>
+            <input type="file" (change)="uploadTrainPhoto($event)" class="mt-2"/>
+          </ion-item>
+
+          <ion-button (click)="addMachineLearning()" onclick="change()"class="ion-margin" >Scan</ion-button>
+
+          <ion-row>
+            <h2>Total Documents:</h2>
+
+          </ion-row>
+          <ion-list>
+            <ion-item color="medium">
+              <ion-grid>
+                <ion-row>
+                  <ion-col size="0.5">
+                    <h6 class="ion-margin"></h6>
+                  </ion-col>
+                  <ion-col>
+                    <h6 class="ion-margin">Report Name</h6>
+                  </ion-col>
+                  <ion-col>
+                    <h6 class="ion-margin">Organisation Name</h6>
+                  </ion-col>
+                  <ion-col>
+                    <h6 class="ion-margin">ABN</h6>
+                  </ion-col>
+                  <ion-col>
+                    <h6 class="ion-margin">Financial Year</h6>
+                  </ion-col>
+                  <ion-col>
+                    <h6 class="ion-margin">Date & Time Uploaded</h6>
+                  </ion-col>
+                </ion-row>
+              </ion-grid>
+            </ion-item>
+            <ion-item color="light">
+              <ion-grid>
+                <ion-row>
+                  <ion-col size="0.5">
+                    <p class="ion-margin"></p>
+                  </ion-col>
+                  <ion-col>
+                    <p class="ion-margin">FileName.pdf</p>
+                  </ion-col>
+                  <ion-col>
+                    <p class="ion-margin">MyOrganization</p>
+                  </ion-col>
+                  <ion-col>
+                    <p class="ion-margin">123456789</p>
+                  </ion-col>
+                  <ion-col>
+                    <p class="ion-margin">2021</p>
+                  </ion-col>
+                  <ion-col>
+                    <p class="ion-margin">March 4, 2021</p>
+                  </ion-col>
+                </ion-row>
+
+              </ion-grid>
+            </ion-item>
+          </ion-list>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
