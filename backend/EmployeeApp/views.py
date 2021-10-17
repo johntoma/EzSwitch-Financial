@@ -40,16 +40,7 @@ def departmentApi(request,id=0):
 
     elif request.method=='POST':
 
-        data1 = {
-            'DepartmentId': 5,
-            'DepartmentName': 'yo bro'
-        }
         department_data=JSONParser().parse(request)
-
-        name = department_data["DepartmentName"]
-        department_data["DepartmentName"] = "test" + name
-
-        print(department_data)
         department_serializer = DepartmentSerializer(data=department_data)
         if department_serializer.is_valid():
             department_serializer.save()
@@ -72,13 +63,13 @@ def departmentApi(request,id=0):
 
 @csrf_exempt
 def machineLearningApi(request,id=0):
-    # GET method
+    # GET method (returns machine learning db of user id)
     if request.method=='GET':
         machineLearnings = MachineLearning.objects.all()
         machineLearnings_serializer = MachineLearningSerializer(machineLearnings, many=True)
         return JsonResponse(machineLearnings_serializer.data, safe=False)
 
-    # POST method
+    # POST method (updates machine learning db of user id)
     elif request.method=='POST':
         m = MyClass()
         machineLearning_data=JSONParser().parse(request)
@@ -539,6 +530,7 @@ def machineLearningApi(request,id=0):
         else:
             return JsonResponse("Failed to Add. No sheet selected",safe=False)
     
+    # Update Request, used when the user presses the 'Edit' button
     elif request.method=='PUT':
         machineLearning_data = JSONParser().parse(request) 
 
@@ -594,11 +586,13 @@ def machineLearningApi(request,id=0):
             return JsonResponse("Updated Successfully!", safe=False)
         return JsonResponse("Failed to Update.", safe=False)
 
+    # Delete requested, used when the user presses the 'Delete' button
     elif request.method=='DELETE':
         machineLearning=MachineLearning.objects.get(MachineLearningId=id)
         machineLearning.delete()
         return JsonResponse("Deleted Successfully!", safe=False)
 
+# Save file request
 @csrf_exempt
 def SaveFile(request):
     file=request.FILES['uploadedFile']
