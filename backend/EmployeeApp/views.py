@@ -30,7 +30,7 @@ class MyClass:
     output = []
 
 
-# Create your views here.
+# Initial project 
 @csrf_exempt
 def departmentApi(request,id=0):
     if request.method=='GET':
@@ -61,6 +61,8 @@ def departmentApi(request,id=0):
         department.delete()
         return JsonResponse("Deleted Successfully!", safe=False)
 
+
+# Machine Learning CRUD
 @csrf_exempt
 def machineLearningApi(request,id=0):
     # GET method (returns machine learning db of user id)
@@ -69,7 +71,7 @@ def machineLearningApi(request,id=0):
         machineLearnings_serializer = MachineLearningSerializer(machineLearnings, many=True)
         return JsonResponse(machineLearnings_serializer.data, safe=False)
 
-    # POST method (updates machine learning db of user id)
+    # POST method (creates machine learning user)
     elif request.method=='POST':
         m = MyClass()
         machineLearning_data=JSONParser().parse(request)
@@ -530,7 +532,7 @@ def machineLearningApi(request,id=0):
         else:
             return JsonResponse("Failed to Add. No sheet selected",safe=False)
     
-    # Update Request, used when the user presses the 'Edit' button
+    # PUT method (updates machine learning db of user id)
     elif request.method=='PUT':
         machineLearning_data = JSONParser().parse(request) 
 
@@ -586,7 +588,7 @@ def machineLearningApi(request,id=0):
             return JsonResponse("Updated Successfully!", safe=False)
         return JsonResponse("Failed to Update.", safe=False)
 
-    # Delete requested, used when the user presses the 'Delete' button
+    # DELETE method (deletes machine learning db of user id)
     elif request.method=='DELETE':
         machineLearning=MachineLearning.objects.get(MachineLearningId=id)
         machineLearning.delete()
