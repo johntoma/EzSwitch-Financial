@@ -1,0 +1,14 @@
+{  
+"Retained earnings": "equity", 
+"Investments": "non-current asset", 
+"Property plant and equipment": "non-current asset", 
+"Loans and borrowings": "non-current asset", 
+"Inventories": "non-current asset", 
+"Loan and other receivables": "current asset", 
+"Employee benefits": "current liability", 
+"Contributed equity": "non-current asset", 
+"Trade and other receivables": "current asset", 
+"Trade and other payables": "current asset", 
+"Cash and cash equivalents": "current asset", 
+"Other assets": "current asset"
+ }

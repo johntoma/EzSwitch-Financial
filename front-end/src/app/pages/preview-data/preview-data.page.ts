@@ -28,21 +28,22 @@ export class PreviewDataPage implements OnInit {
   Output: string;
 
   MachineLearningList: any = [];
-  Zoom = 50;
+
+  Zoom = 50; //default zoom value
   PreviewFilePath: string;
-  PreviewWidth: string;
-  PreviewHeight: string;
 
   ngOnInit() {
     this.refreshMLList();
-    this.PreviewFilePath = 'assets/placeholder-image.png';
+    this.PreviewFilePath = 'assets/placeholder-image.png'; //Set preview file to a placeholder image
     this.Zoom = 50;
   }
 
+  //Sets the preview file
   ChangePreviewDocument(dataItem){
     this.PreviewFilePath = this.service.PhotoUrl + dataItem.SheetFileName;
   }
 
+  //Adjusts the "zoom" (size) of the previewed file
   ChangePreviewZoom(){
     const previewFile = document.getElementById('PreviewFile');
     const imgSrc = new Image();
@@ -52,6 +53,7 @@ export class PreviewDataPage implements OnInit {
 
    }
 
+  //Refreshes the Machine Learning data displayed
   refreshMLList() {
 
     this.service.getMLList().subscribe(data => {

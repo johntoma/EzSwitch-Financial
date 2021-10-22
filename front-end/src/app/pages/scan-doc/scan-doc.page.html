@@ -7,31 +7,6 @@
 </ion-header>
 <ion-content>
   <ion-grid>
-    <!-- Instructions Section -->
-    <ion-row>
-      <ion-col>
-        <ion-card color="secondary" class="ion-margin ion-padding">
-          <ion-title>Instructions</ion-title>
-          <p>
-            1. Add your PDF file you wish to use for scanning using the ‘Add
-            File’ button.
-          </p>
-          <p>
-            2. After adding the file you wish to scan, press the ‘Upload
-            Document’ button to begin scanning.
-          </p>
-          <p>
-            3. Once the document has been scanned, you may download it by clicking the
-            ‘Download’ button beside the PDF file.
-          </p>
-          <p>
-            4. You may machine learn thescanned documents by accessing the
-            ‘Machine ‘Learning’ page located on the left side of the page.
-          </p>
-        </ion-card>
-      </ion-col>
-    </ion-row>
-
     <!-- Upload Document Section-->
     <ion-row>
       <ion-col>
@@ -46,15 +21,23 @@
               <option>Profit and Loss</option>
             </select>
           </ion-item>
+
+          <!-- Upload Sheet File-->
           <ion-item color="primary" style="width:500px;margin:10px">
             <ion-label>Upload Sheet File:</ion-label>
             <input type="file" (change)="uploadPhoto($event)" class="mt-2" />
           </ion-item>
+
+          <!-- Upload Training Data File-->
           <ion-item color="primary" style="width:550px;margin:10px">
             <ion-label>Upload Training Data File:</ion-label>
             <input type="file" (change)="uploadTrainPhoto($event)" class="mt-2" />
           </ion-item>
 
+          <!--
+            Add Machine Learning Button
+            Uploads the Sheet and Training Data Files
+          -->
           <ion-button (click)="addMachineLearning()" onclick="change()" class="ion-margin">Scan</ion-button>
 
         </ion-card>

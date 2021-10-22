@@ -54,6 +54,9 @@ export class ExtractPage implements OnInit {
 
   }
 
+  //This function is called when the edit button is clicked.
+  //Displays a modal allowing the user to edit the extacted data output.
+  //Within the modal, there is a text box with the extracted data output where the user can edit the data.
   async editClick(item) {
     const modal = await this.modalCtrl.create({
       component: EditDataComponent,
@@ -71,6 +74,9 @@ export class ExtractPage implements OnInit {
     this.ActivateAddEditMLComp = true;
   }
 
+  //Called when Delete Button is clicked.
+  //Makes an alert appear asking the user if they are sure.
+  //If the user confirms, then the data in the row is deleted.
   deleteClick(item) {
     if (confirm('Are you sure??')) {
       this.service.deleteMachineLearning(item.MachineLearningId).subscribe(data => {
@@ -84,6 +90,8 @@ export class ExtractPage implements OnInit {
     convertString();
   }
 
+
+  //Updates the machine learning data
   updateMachineLearning() {
     var val = {
       MachineLearningId: this.MachineLearningId,
@@ -99,6 +107,7 @@ export class ExtractPage implements OnInit {
     });
   }
 
+  //Refreshes the Machine Learning data displayed
   refreshMLList() {
 
     this.service.getMLList().subscribe(data => {
@@ -119,6 +128,7 @@ export class ExtractPage implements OnInit {
 
   }
 
+  //Displays modal
   async showModal() {
     const modal = await this.modalCtrl.create({
       component: EditDataComponent

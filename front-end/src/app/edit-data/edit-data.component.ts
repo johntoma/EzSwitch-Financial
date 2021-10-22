@@ -84,8 +84,6 @@ export class EditDataComponent implements OnInit {
     });
   }
 
-
-
   uploadPhoto(event) {
     var file = event.target.files[0];
     const formData: FormData = new FormData();
@@ -109,11 +107,13 @@ export class EditDataComponent implements OnInit {
   }
 
 
+  //Closes the modal
   async closeClick() {
     this.refreshMLList();
     await this.modalCtrl.dismiss();
   }
 
+  //Refreshes the Machine Learning data displayed
   refreshMLList() {
 
     this.service.getMLList().subscribe(data => {

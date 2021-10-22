@@ -8,8 +8,11 @@
 <ion-content>
   <ion-card color="secondary" class="ion-margin ion-padding">
     <ion-title class="ion-margin"><strong>Data Extraction</strong></ion-title>
+
+    <!-- Extacted Data Table -->
     <ion-list>
       <ion-item color="medium">
+        <!-- Table Headers -->
         <ion-grid>
           <ion-row>
             <ion-col size="0.75">
@@ -32,6 +35,10 @@
       </ion-item>
       <ion-item color="light">
         <ion-grid>
+          <!--
+            Table Rows
+            For each row, data is taken from MachineLearningList and displayed under the headers.
+          -->
           <ion-row *ngFor="let dataItem of MachineLearningList">
             <ion-col size="0.75">
               <p class="ion-margin">{{dataItem.MachineLearningId}}</p>
@@ -45,47 +52,15 @@
             <ion-col size="5.5">
               <p style="white-space: pre" class="ion-margin">{{dataItem.Output}}</p>
             </ion-col>
+            <!-- Option Buttons -->
             <ion-col size="1.5">
+              <!-- Edit and Delete Buttons -->
               <ion-button (click)="editClick(dataItem)">Edit&nbsp;&nbsp;<ion-icon name="create-outline"></ion-icon></ion-button>
               <ion-button (click)="deleteClick(dataItem)">Delete&nbsp;&nbsp;<ion-icon name="trash-outline"></ion-icon></ion-button>
+
+              <!-- Download Buttons -->
               <ion-button href="assets/{{dataItem.TrainingDataFileName}}" download="{{dataItem.TrainingDataFileName}}">Training Data&nbsp;&nbsp;<ion-icon name="download-outline"></ion-icon></ion-button>
               <ion-button href="assets/{{dataItem.TrainingDataFileName}}.json" download="{{dataItem.TrainingDataFileName}}.json">Output&nbsp;&nbsp;<ion-icon name="download-outline"></ion-icon></ion-button>
-
-              <!--
-              <p class="ion-margin">
-                <button type="button" class="btn btn-light mr-1" data-toggle="modal" data-target="#exampleModal"
-                  (click)="editClick(dataItem)" data-backdrop="static" data-keyboard="false">
-                  <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-pencil-square" fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
-                    <path fill-rule="evenodd"
-                      d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z" />
-                  </svg>
-                </button>
-                <button type="button" class="btn btn-light mr-1" (click)="deleteClick(dataItem)">
-                  <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-trash-fill" fill="currentColor"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0v-7z" />
-                  </svg>
-                </button>
-
-
-                <button type="button" class="btn btn-light mr-1" [href]="fileURL"  target="_blank" download="yo.txt">
-                  <a target="_self" href="assets/{{dataItem.TrainingDataFileName}}" download="{{dataItem.TrainingDataFileName}}"> Download Training Data with Attached Output</a> <br>
-                  <a target="_self" href="assets/{{dataItem.TrainingDataFileName}}.json" download="{{dataItem.TrainingDataFileName}}.json"> Download Output</a>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor"
-                    class="bi bi-download" viewBox="0 0 16 16">
-                    <path
-                      d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
-                    <path
-                      d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
-                  </svg>
-                </button>
-              </p>
-            -->
-
             </ion-col>
           </ion-row>
 
