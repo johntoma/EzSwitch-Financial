@@ -1,0 +1,3 @@
+TXT File must be left here or else GitHub will automatically delete this folder.
+
+This folder is used for managing files between front and back end.
