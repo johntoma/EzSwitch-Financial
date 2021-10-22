@@ -1,7 +1,7 @@
 # PythonDjangoAngular10
 
 1. install tesseract-ocr download exe https://github.com/UB-Mannheim/tesseract/wiki
-2. run 'cd backend'
+2. open up a terminal in the directory and run 'cd backend'
 3. run 'python manage.py runserver'
 4. open up a second terminal in the 'frontend' directory
 5. run 'npm install --save-dev @angular-devkit/build-angular'
